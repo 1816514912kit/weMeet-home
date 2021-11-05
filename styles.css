@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #141518;
+}
+
+nav{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #37061d  ;
+}
+.btn{
+    height: 35px;
+    border: none;
+    background-color:#37061d  ;
+    width: 95px;
+    margin-right: 20px;
+    border-radius: 110px;
+
+}
+
+.btn:hover{
+    border: 1px solid gray;
+    cursor: pointer;
+}
+.btn_login{
+    height: 40px;
+    width: 100px;
+    margin-right: 20px;
+    border: none;
+    border-radius: 110px;
+    color: black;
+}
+.btn_login:hover{
+    border: 2px solid white;
+    background-color: #37061d;
+    
+    
+}
+.btn_login_atag{
+    color: black;
+}
+
+.btn_login_atag:hover{
+    color: white;
+}
+
+
+.heading{
+    text-align: center;
+    font-size: 3rem;
+    color: #fff;
+    padding: 30px 350px;
+    
+    
+}
+.icon{
+    color:#ef8172;
+    margin-bottom: 1rem;
+    
+  }
+  .icon:hover{
+    color:#ff4c68;
+  }
+  h3{
+    font-family: "Montserrat-Bold";
+    font-size: 1.5rem;
+    color: #fff;
+  }
+  #new{
+    padding: 2% 7%;
+    position: relative;
+  }
+  .Meet{
+    text-align: center;
+    padding: 5%;
+  }
+  .cal-img{
+    width: 60%;
+    height: 50vh;
+    
+    
+  }
+  .head{
+      text-align: center;
+      color: #fff;
+      font-size: 3rem;
+      font-weight: bold;
+  }
+  #Join{
+    
+        padding: 2% 7%;
+        position: relative;
+      
+  }
+.btn-join{
+    color:#fff;
+    background-color: #37061d;
+}
+.btn-down{
+    padding: 0 20px;
+    color:#fff;
+    background-color: #37061d;
+    float: right;
+    margin-left: 20px;
+}
+#new-meet{
+    padding: 3% 7%;
+    position: relative;
+}
